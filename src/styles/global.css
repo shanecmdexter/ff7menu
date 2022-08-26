@@ -1,0 +1,43 @@
+:root {
+	--off-black: #0a0a0a;
+	--dark-gray: #2a2b2a;
+	--off-white: #f5f5f5;
+}
+
+/* flexbox */
+
+.flex {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.jc-start {
+	justify-content: flex-start;
+}
+
+.ai-start {
+	align-items: flex-start;
+}
+
+.ai-end {
+	align-items: flex-end;
+}
+
+.s-b {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.cl {
+	display: flex;
+	flex-direction: column;
+}
+
+.row {
+	display: flex;
+	flex-direction: row;
+}
